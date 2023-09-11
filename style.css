@@ -41,7 +41,7 @@ button:hover{
     filter: saturate(80%);
 }
 .bu-primary{
-    background-color: var(--Moderate-blue);
+    background-color: var(--white);
     color: var(--White);
     border: none;
     padding: .75rem 1.5rem;
@@ -144,6 +144,7 @@ button:hover{
     display: none;
 }
 .control-icon{
+    /* background-color: white; */
     margin-right: .5rem;
 }
 
@@ -159,8 +160,9 @@ button:hover{
     font-weight: 500;
 }
 
+
 .reply-input{
-    display: grid;
+    display: flex;   
     margin-bottom: 1rem;
     grid-template-areas: "avatar input button";
     grid-template-columns: min-content auto min-content;
@@ -178,6 +180,7 @@ button:hover{
     align-self: flex-start;
 }
 .reply-input textarea{
+    background-color: rgb(245, 245, 245);
     grid-area: input;
     padding: 1rem;
     width: 100%;
@@ -185,6 +188,7 @@ button:hover{
     border-radius: 4px;
     resize: none;
 }
+
 
 .this-user .usr-name::after{
     font-weight: 400;
@@ -297,4 +301,19 @@ button:hover{
 .modal .no{
     background-color: var(--Grayish-Blue);
     grid-area: no;
+}
+
+
+/* .umair-two{
+    font-size: 20px;
+    background-color: red;
+} */
+
+/* new changes */
+
+.button {
+    position: absolute;
+    right: 0; /* Position the button at the right corner */
+    top: 50%; /* Vertically center-align the button */
+    transform: translateY(-50%); /* Correct the vertical alignment */
 }
