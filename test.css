@@ -1,0 +1,1432 @@
+/* Indivudal. Comment
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 12px;
+
+position: relative;
+width: 668px;
+height: 716px;
+
+border: 1px dashed #7B61FF;
+border-radius: 5px;
+
+
+/* Property 1=Default */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px;
+gap: 12px;
+
+width: 636px;
+height: 120px;
+
+/* White */
+background: #FFFFFF;
+/* Blue Shadow */
+box-shadow: 0px 6px 20px rgba(140, 151, 164, 0.2);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 1 */
+
+width: 36px;
+height: 36px;
+
+background: url();
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 564px;
+height: 96px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Maria */
+
+width: 564px;
+height: 20px;
+
+/* Subheading Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* I was very glad to have you after such a long time. Can you plan a meetup? Maybe this weekend? */
+
+width: 564px;
+height: 40px;
+
+/* Body Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* Text Gray */
+color: #646464;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 0px 0px;
+gap: 16px;
+
+width: 104px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 28px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Heart */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10%;
+right: 10%;
+top: 15%;
+bottom: 15%;
+
+background: #E33E38;
+
+
+/* 1 */
+
+width: 4px;
+height: 20px;
+
+/* Body Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* Neutral/70 - Light Gray */
+color: #757575;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 2 */
+
+width: 4px;
+height: 4px;
+
+/* Text Gray */
+background: #646464;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Reply */
+
+width: 40px;
+height: 20px;
+
+/* Subheading Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* Focused */
+color: #6590FF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Property 1=Variant3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px;
+gap: 12px;
+
+width: 636px;
+height: 120px;
+
+/* White */
+background: #FFFFFF;
+/* Blue Shadow */
+box-shadow: 0px 6px 20px rgba(140, 151, 164, 0.2);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 1 */
+
+width: 36px;
+height: 36px;
+
+background: url();
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 564px;
+height: 96px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Tania */
+
+width: 564px;
+height: 20px;
+
+/* Subheading Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* I was very glad to have you after such a long time. Can you plan a meetup? Maybe this weekend? */
+
+width: 564px;
+height: 40px;
+
+/* Body Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* Text Gray */
+color: #646464;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 0px 0px;
+gap: 16px;
+
+width: 109px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 33px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Heart */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10%;
+right: 10%;
+top: 15%;
+bottom: 15%;
+
+background: #C2C2C2;
+
+
+/* 0 */
+
+width: 9px;
+height: 20px;
+
+/* Body Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* Neutral/70 - Light Gray */
+color: #757575;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 2 */
+
+width: 4px;
+height: 4px;
+
+/* Text Gray */
+background: #646464;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Reply */
+
+width: 40px;
+height: 20px;
+
+/* Subheading Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* Focused */
+color: #6590FF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Property 1=Variant2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 12px;
+gap: 24px;
+
+width: 636px;
+height: 308px;
+
+/* White */
+background: #FFFFFF;
+/* Blue Shadow */
+box-shadow: 0px 6px 20px rgba(140, 151, 164, 0.2);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 14 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 612px;
+height: 116px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rectangle 1 */
+
+width: 36px;
+height: 36px;
+
+background: url();
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 564px;
+height: 116px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Alex Benjamin */
+
+width: 564px;
+height: 20px;
+
+/* Subheading Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Home sweet home! I’m glad you are back. It’s been two year and miss the football matches we have together. A lot has been changed since you left. Let’s meet at the ground tomorrow evening? */
+
+width: 564px;
+height: 60px;
+
+/* Body Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* Text Gray */
+color: #646464;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 0px 0px;
+gap: 16px;
+
+width: 104px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 28px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Heart */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10%;
+right: 10%;
+top: 15%;
+bottom: 15%;
+
+background: #E33E38;
+
+
+/* 1 */
+
+width: 4px;
+height: 20px;
+
+/* Body Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* Neutral/70 - Light Gray */
+color: #757575;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 2 */
+
+width: 4px;
+height: 4px;
+
+/* Text Gray */
+background: #646464;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Reply */
+
+width: 40px;
+height: 20px;
+
+/* Subheading Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* Focused */
+color: #6590FF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 13 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 0px 0px 45px;
+gap: 12px;
+
+width: 612px;
+height: 76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rectangle 2 */
+
+width: 36px;
+height: 36px;
+
+background: url();
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 519px;
+height: 76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 519px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* John Doe */
+
+width: 69px;
+height: 20px;
+
+/* Subheading Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 16 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 4px;
+gap: 10px;
+
+width: 25px;
+height: 14px;
+
+background: rgba(131, 68, 219, 0.1);
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ME */
+
+width: 17px;
+height: 14px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 14px;
+/* identical to box height, or 140% */
+letter-spacing: 0.16em;
+text-transform: uppercase;
+
+/* Primary/Main Hover */
+color: #8344DB;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Old rivalry! Consider me in ;-) */
+
+width: 519px;
+height: 20px;
+
+/* Body Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* Text Gray */
+color: #646464;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 0px 0px;
+gap: 16px;
+
+width: 129px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 33px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Heart */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10%;
+right: 10%;
+top: 15%;
+bottom: 15%;
+
+background: #C2C2C2;
+
+
+/* 0 */
+
+width: 9px;
+height: 20px;
+
+/* Body Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* Neutral/70 - Light Gray */
+color: #757575;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 2 */
+
+width: 4px;
+height: 4px;
+
+/* Text Gray */
+background: #646464;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Remove */
+
+width: 60px;
+height: 20px;
+
+/* Subheading Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* Danger/Main */
+color: #E33E38;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 15 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 10px;
+
+width: 612px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 8 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 12px;
+gap: 273px;
+
+width: 566px;
+height: 44px;
+
+/* Background */
+background: #F8F9FB;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Write your comment */
+
+margin: 0 auto;
+width: 150px;
+height: 20px;
+
+/* Body Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* Text Gray */
+color: #646464;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Send */
+
+margin: 0 auto;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Focused */
+background: #6590FF;
+
+
+/* Property 1=John */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px;
+gap: 12px;
+
+width: 636px;
+height: 100px;
+
+/* White */
+background: #FFFFFF;
+/* Blue Shadow */
+box-shadow: 0px 6px 20px rgba(140, 151, 164, 0.2);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Rectangle 1 */
+
+width: 36px;
+height: 36px;
+
+background: url();
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 564px;
+height: 76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 564px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* John Doe */
+
+width: 69px;
+height: 20px;
+
+/* Subheading Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 16 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 4px;
+gap: 10px;
+
+width: 25px;
+height: 14px;
+
+background: rgba(131, 68, 219, 0.1);
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ME */
+
+width: 17px;
+height: 14px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 14px;
+/* identical to box height, or 140% */
+letter-spacing: 0.16em;
+text-transform: uppercase;
+
+/* Primary/Main Hover */
+color: #8344DB;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Thank you all */
+
+width: 564px;
+height: 20px;
+
+/* Body Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* Text Gray */
+color: #646464;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 0px 0px;
+gap: 16px;
+
+width: 129px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 33px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Heart */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10%;
+right: 10%;
+top: 15%;
+bottom: 15%;
+
+background: #C2C2C2;
+
+
+/* 0 */
+
+width: 9px;
+height: 20px;
+
+/* Body Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* Neutral/70 - Light Gray */
+color: #757575;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 2 */
+
+width: 4px;
+height: 4px;
+
+/* Text Gray */
+background: #646464;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Remove */
+
+width: 60px;
+height: 20px;
+
+/* Subheading Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.03em;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* Danger/Main */
+color: #E33E38;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0; */
