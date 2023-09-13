@@ -148,7 +148,6 @@ const deleteComment = (commentObject) => {
         promptDel(commentObject);
       });
 
-      // new changes for toggle
       const scoreToggle = commentNode.querySelector(".score-toggle");
       scoreToggle.setAttribute("data-score", commentObject.score);
 
@@ -185,7 +184,6 @@ const deleteComment = (commentObject) => {
       }
     });
   };
-  
   // function initComments(
   //   commentList = data.comments,
   //   parent = document.querySelector(".comments-wrp")
@@ -204,7 +202,6 @@ const deleteComment = (commentObject) => {
   //     appendComment(parent, comment_node, parentId);
   //   });
   // }
-
   function initComments( commentList = data.comments, parent = document.querySelector(".comments-wrp"))
   {
     parent.innerHTML = "";

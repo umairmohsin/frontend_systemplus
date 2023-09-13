@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
-
 :root {
   --Moderate-blue: hsl(238, 40%, 52%);
   --Soft-Red: hsl(358, 79%, 66%);
@@ -46,7 +45,7 @@ button:hover{
   align-items: center;
   padding: 0.5rem;
   gap: 1rem; 
-  width: 100%;
+  width: 100%;;
 } 
 
 .bu-primary{
@@ -123,7 +122,6 @@ button:hover{
     height: 2rem;
     width: 2rem;
 }
-
 .c-controls{
     margin-top: 10px;
     margin-left:80px;
@@ -137,7 +135,6 @@ button:hover{
 .c-controls a{
     align-items: center;
 }
-
 .delete{
     margin-top: -1px;
     color: var(--Soft-Red);
@@ -158,12 +155,10 @@ button:hover{
     margin-top: -0px;
     color: var(--Moderate-blue);
 }
-
 .control-icon2{
     background-color: white;
     margin-right: -5px;
 }
-
 .reply-iconumair{
     margin-top: -18px;
     display: flex;
@@ -171,7 +166,6 @@ button:hover{
     margin-right: 1rem;
     margin-left: 3rem;
 }
-
 .reply-iconumair2{
     margin-top:-20px;
     display: flex;
@@ -179,7 +173,6 @@ button:hover{
     margin-right: 1rem;
     margin-left: 4.4rem;
 }
-
 .replies{
     display: flex;
     margin-left: 2.5rem;
@@ -189,14 +182,9 @@ button:hover{
     color: var(--Moderate-blue);
     font-weight: 500;
 }
-
 .reply-input{
-    /* background-color: yellow; */
     display: flex;   
     margin-bottom: 1rem;
-    /* grid-template-areas: "avatar input button"; */
-    /* grid-template-columns: min-content auto min-content; */
-    /* justify-items: center; */
     gap: 1rem;
     min-height: 1rem;
 }
@@ -208,21 +196,18 @@ button:hover{
 .reply-input button{
     grid-area: button;
     align-self: flex-start;
-    background-color: transparent; /* Make the button background transparent */
+    background-color: transparent; 
     border: none;
 }
 .reply-input textarea{
-    background-color: transparent; /* Make the textarea background transparent */
+    background-color: transparent; 
     background-color: var(--Light-gray);
     border: none;
     width: 100%;
     height: 3rem;
     resize: none;
     padding: 1rem;
-    /* width: 100%;
-    border: 1px solid var(--Light-gray);
-    border-radius: wpx;
-    */
+    overflow: hidden; 
 }
 
 .this-user .usr-name::after{
@@ -236,14 +221,12 @@ button:hover{
     margin-left: .5rem;
     border-radius: 2px;
 }
-
 .this-user .reply{
     display: none;
 }
 .this-user .edit , .this-user .delete{
     display: flex;
 }
-
 @media screen and (max-width:640px) {
     .container{
         padding: .75rem;
@@ -298,11 +281,9 @@ button:hover{
     "body body"
     "no yes";
 }
-
 .invisible{
     display: none;
 }
-
 .modal h3{
     grid-area: heading;
     color: var(--Dark-blue);
