@@ -1,23 +1,23 @@
-/* @import url("https://fonts.google.com/specimen/Poppins:wght@300;500;700&display=swap"); */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 
 :root {
   --Moderate-blue: hsl(238, 40%, 52%);
   --Soft-Red: hsl(358, 79%, 66%);
   --Light-grayish-blue: hsl(239, 57%, 85%);
   --Pale-red: hsl(357, 100%, 86%);
-
   --Dark-blue: hsl(212, 24%, 26%);
   --Grayish-Blue: hsl(211, 10%, 45%);
   --Light-gray: hsl(223, 19%, 93%);
   --Very-light-gray: hsl(228, 33%, 97%);
   --White: hsl(0, 0%, 100%);
+  --Purpe: hsl(290, 68%, 86%);
+  --Purple2: hsl(291, 58%, 63%);
 }
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins ", sans-serif;
+  font-family: 'Poppins';
   font-size: 16px;
 }
 p{
@@ -40,6 +40,15 @@ button{
 button:hover{
     filter: saturate(80%);
 }
+
+.input-container{
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  gap: 1rem; 
+  width: 100%;
+} 
+
 .bu-primary{
     background-color: var(--white);
     color: var(--White);
@@ -47,12 +56,8 @@ button:hover{
     padding: .75rem 1.5rem;
     border-radius: 4px;
 }
-.comment-section{
-    padding: 0 1rem;
-}
 .container{
-    border-radius: 8px;
-    padding: 1.5rem;
+    padding: 0.75rem;
     background-color: var(--White);
 }
 .comments-wrp {
@@ -60,7 +65,7 @@ button:hover{
     flex-direction: column;
 }
 .comment-section{
-    max-width: 75ch;
+    max-width: 85ch;
     margin: auto;
     margin-top: 1rem;
 }
@@ -91,7 +96,6 @@ button:hover{
     width: 1rem;
     box-sizing: content-box;
     background-color: var(--Very-light-gray);
-    border-radius: 8px;
     align-self: flex-start;
 }
 .score-control{
@@ -100,6 +104,7 @@ button:hover{
     object-fit: scale-down;
 }
 .c-text{
+    margin-left: 47px;
     grid-area: comment;
     width: 100%;
 }
@@ -110,7 +115,6 @@ button:hover{
     gap: 1rem;
     align-items: center;
 }
-
 .usr-name{
     color: var(--Dark-blue);
     font-weight: 700;
@@ -122,7 +126,7 @@ button:hover{
 
 .c-controls{
     margin-top: 10px;
-    margin-left: 60px;
+    margin-left:80px;
     display: flex;
     gap: 1rem;
     color: var(--Moderate-blue);
@@ -133,26 +137,52 @@ button:hover{
 .c-controls a{
     align-items: center;
 }
-.edit , .reply{
-    color: var(--Moderate-blue);
-}
-.edit{
-    display: none;
-}
+
 .delete{
+    margin-top: -1px;
     color: var(--Soft-Red);
     display: none;
 }
+
+.dot{
+    margin-left: 7px;
+    margin-top: -5px;    
+}
+
 .control-icon{
-    /* background-color: white; */
-    margin-right: .5rem;
+    margin-right: -5px;
+    margin-left: auto;
+}
+
+.reply{
+    margin-top: -0px;
+    color: var(--Moderate-blue);
+}
+
+.control-icon2{
+    background-color: white;
+    margin-right: -5px;
+}
+
+.reply-iconumair{
+    margin-top: -18px;
+    display: flex;
+    margin-bottom: 1px;
+    margin-right: 1rem;
+    margin-left: 3rem;
+}
+
+.reply-iconumair2{
+    margin-top:-20px;
+    display: flex;
+    margin-bottom: 1px;
+    margin-right: 1rem;
+    margin-left: 4.4rem;
 }
 
 .replies{
     display: flex;
     margin-left: 2.5rem;
-    padding-left: 2.4rem;
-    border-left: 1px solid var(--Light-grayish-blue);
 }
 
 .reply-to{
@@ -160,15 +190,15 @@ button:hover{
     font-weight: 500;
 }
 
-
 .reply-input{
+    /* background-color: yellow; */
     display: flex;   
     margin-bottom: 1rem;
-    grid-template-areas: "avatar input button";
-    grid-template-columns: min-content auto min-content;
-    justify-items: center;
+    /* grid-template-areas: "avatar input button"; */
+    /* grid-template-columns: min-content auto min-content; */
+    /* justify-items: center; */
     gap: 1rem;
-    min-height: 9rem;
+    min-height: 1rem;
 }
 .reply-input img{
     grid-area: avatar;
@@ -178,23 +208,28 @@ button:hover{
 .reply-input button{
     grid-area: button;
     align-self: flex-start;
+    background-color: transparent; /* Make the button background transparent */
+    border: none;
 }
 .reply-input textarea{
-    background-color: rgb(245, 245, 245);
-    grid-area: input;
-    padding: 1rem;
+    background-color: transparent; /* Make the textarea background transparent */
+    background-color: var(--Light-gray);
+    border: none;
     width: 100%;
-    border: 1px solid var(--Light-gray);
-    border-radius: 4px;
+    height: 3rem;
     resize: none;
+    padding: 1rem;
+    /* width: 100%;
+    border: 1px solid var(--Light-gray);
+    border-radius: wpx;
+    */
 }
-
 
 .this-user .usr-name::after{
     font-weight: 400;
-    content: "you";
-    color: var(--White);
-    background-color: var(--Moderate-blue);
+    content: "Me";
+    color: var(--Purple2);
+    background-color: var(--Purpe);
     padding: 0 .4rem;
     padding-bottom: .2rem;
     font-size: .8rem;
@@ -214,7 +249,6 @@ button:hover{
         padding: .75rem;
     }
     .replies{
-        padding-left: 1rem;
         margin-left: .5rem;
     }
     .comment{
@@ -223,12 +257,7 @@ button:hover{
             "comment comment comment"
             "score ... controls"
         ;
-
         gap: .5rem;
-    }
-    .c-score{
-        flex-direction: row;
-        width: auto;
     }
     .reply-input{
         grid-template-areas: 
@@ -249,8 +278,6 @@ button:hover{
         align-self: stretch;
     }
 }
-
-
 .modal-wrp{
     position: fixed;
     top: 0;
@@ -262,9 +289,7 @@ button:hover{
     justify-content: center;
     background-color: rgba(0,0,0,.3);
 }
-
 .modal{
-    padding: 1.5rem;
     max-width: 32ch;
     display: grid;
     gap: 1rem;
@@ -302,18 +327,14 @@ button:hover{
     background-color: var(--Grayish-Blue);
     grid-area: no;
 }
-
-
-/* .umair-two{
-    font-size: 20px;
-    background-color: red;
-} */
-
-/* new changes */
-
 .button {
     position: absolute;
-    right: 0; /* Position the button at the right corner */
-    top: 50%; /* Vertically center-align the button */
-    transform: translateY(-50%); /* Correct the vertical alignment */
+    right: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+.title{
+    display: flex;
+    margin-left: 47rem;
+    font-size: 25px;
 }
